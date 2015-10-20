@@ -4,18 +4,15 @@ TaxCloud handles every aspect of sales tax management, from collection to filing
 
 ## Setup
 
-.. code:: bash
     pip install -r requirements.txt
 
 
 ## Setup Config
 
-.. code:: python
     taxcloud_config = TaxCloudConfig(api_login_id='your_tax_cloud_api_login_id', api_key='your_tax_cloud_api_key')
 
 ## Basic Usage
 
-.. code:: python
     from taxcloud.address import Address
     from taxcloud.cart_item import CartItem
     from taxcloud import taxcloud_services
@@ -42,5 +39,4 @@ TaxCloud handles every aspect of sales tax management, from collection to filing
 
 ## Running Tests
 
-.. code:: bash
     inv tests
